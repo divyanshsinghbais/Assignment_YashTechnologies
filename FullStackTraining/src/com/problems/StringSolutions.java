@@ -23,8 +23,7 @@ public class StringSolutions {
 	/*
 	 2. WAP to print the all alphabets of string in ascending and descending order.
 	 */
-	public void sortStringDescending(String str)
-	{
+	public void sortStringDescending(String str) {
 		int MAX_CHAR = 256;
 		int charCount[] = new int[MAX_CHAR];
 
@@ -37,26 +36,23 @@ public class StringSolutions {
 		}
 	}
 
-	public void sortStringAscending(char[] arr) {
-		char temp;
-
-		int i = 0;
-		while (i < arr.length) {
-			int j = i + 1;
-			while (j < arr.length) {
-				if (arr[j] < arr[i]) {
-
-					// Comparing the characters one by one
-					temp = arr[i];
-					arr[i] = arr[j];
-					arr[j] = temp;
-				}
-				j += 1;
-			}
-			i += 1;
-		}
-		System.out.println(arr);
-
+	public void sortStringAscending(String str) {
+		char arr[] = str.toCharArray();
+        char temp;
+        int i = 0;
+        while (i < arr.length) {
+            int j = i + 1;
+            while (j < arr.length) {
+                if (arr[j] < arr[i]) {
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+                j += 1;
+            }
+            i += 1;
+        }
+        System.out.println(arr);
 	}
 
 
