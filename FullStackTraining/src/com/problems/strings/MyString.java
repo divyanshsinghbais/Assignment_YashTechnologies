@@ -1,4 +1,4 @@
-package com.problems;
+package com.problems.strings;
 
 public final class MyString {
 	private int myLength;

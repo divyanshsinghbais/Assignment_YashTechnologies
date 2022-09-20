@@ -1,12 +1,14 @@
-package com.problems;
+package com.assessment.sheet1;
 
 import java.util.Scanner;
+
+import com.problems.strings.Sheet1StringSolutions;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		StringSolutions ss = new StringSolutions();
+		Sheet1StringSolutions ss = new Sheet1StringSolutions();
 
 		//1
 		System.out.println("Enter string 1:");

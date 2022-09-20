@@ -1,6 +1,8 @@
-package com.problems;
-
-public class StringSolutions {
+package com.problems.strings;
+/*
+ 	String solutions for PFA assessment sheet 1
+ */
+public class Sheet1StringSolutions {
 	/*
 	1. Create a program in which two string is input by the user and after that user will enter index in
 		first string where we want to insert the second string and insert the second string at that index
@@ -38,21 +40,21 @@ public class StringSolutions {
 
 	public void sortStringAscending(String str) {
 		char arr[] = str.toCharArray();
-        char temp;
-        int i = 0;
-        while (i < arr.length) {
-            int j = i + 1;
-            while (j < arr.length) {
-                if (arr[j] < arr[i]) {
-                    temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
-                }
-                j += 1;
-            }
-            i += 1;
-        }
-        System.out.println(arr);
+		char temp;
+		int i = 0;
+		while (i < arr.length) {
+			int j = i + 1;
+			while (j < arr.length) {
+				if (arr[j] < arr[i]) {
+					temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+				j += 1;
+			}
+			i += 1;
+		}
+		System.out.println(arr);
 	}
 
 
@@ -152,10 +154,10 @@ public class StringSolutions {
 
 	public void checkGarbageCollector(){  
 
-		StringSolutions obj=new StringSolutions();  
+		Sheet1StringSolutions obj=new Sheet1StringSolutions();  
 		obj=null;  
-		StringSolutions a = new StringSolutions();
-		StringSolutions b = new StringSolutions();		
+		Sheet1StringSolutions a = new Sheet1StringSolutions();
+		Sheet1StringSolutions b = new Sheet1StringSolutions();		
 		b = a;
 		System.gc();  
 	}  
