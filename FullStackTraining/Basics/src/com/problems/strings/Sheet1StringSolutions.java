@@ -1,5 +1,6 @@
 package com.problems.strings;
 /*
+ * @author divyansh.singh
  	String solutions for PFA assessment sheet 1
  */
 public class Sheet1StringSolutions {
@@ -8,8 +9,7 @@ public class Sheet1StringSolutions {
 		first string where we want to insert the second string and insert the second string at that index
 		and create a new string 
 	 */
-	public String insertStringAt(String originalString, String stringToBeInserted, int index)
-	{
+	public String insertStringAt(String originalString, String stringToBeInserted, int index) {
 		String newString = new String();
 
 		for (int i = 0; i < originalString.length(); i++) {
@@ -152,7 +152,7 @@ public class Sheet1StringSolutions {
 	 7. WAP to demonstrate how garbage collector work when any memory is not referenced by string object.
 	 */
 
-	public void checkGarbageCollector(){  
+	public void checkGarbageCollector() {  
 
 		Sheet1StringSolutions obj=new Sheet1StringSolutions();  
 		obj=null;  
@@ -160,9 +160,17 @@ public class Sheet1StringSolutions {
 		Sheet1StringSolutions b = new Sheet1StringSolutions();		
 		b = a;
 		System.gc();  
+		/*
+		 * Printing null object
+		 */
+		System.out.println("\n Null object printing: "+a);
 	}  
 	protected void finalize() throws Throwable
 	{
 		System.out.println("Garbage collection is performed by JVM");
+		/*
+		 * Compile error at printing null object
+		 */
+		//System.out.println(a);
 	}  
 }
