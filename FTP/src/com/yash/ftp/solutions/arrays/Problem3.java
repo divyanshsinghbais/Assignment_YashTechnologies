@@ -55,7 +55,7 @@ class Array {
  * @author divyansh.singh
  *
  */
-public class DynamicArray{
+public class Problem3{
 	 
     // Main driver method
     public static void main(String[] args)

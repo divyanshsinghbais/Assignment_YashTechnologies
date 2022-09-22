@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @author divyansh.singh
  *
  */
-public class EvenOddLcm {
+public class Problem5n7 {
 
 	/**
 	 * @param args
