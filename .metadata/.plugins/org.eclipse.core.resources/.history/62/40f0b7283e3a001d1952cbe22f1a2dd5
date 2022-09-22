@@ -1,0 +1,13 @@
+package com.yash.ftp.oops;
+
+/*
+ * WAP to print the object of Employee class with the help of toString method. 
+Employee class fields :- empid, empname, empsalary, empaddress, emp_dob, 
+emp_doj. use Date class to store the date of birth(dob) and date of joining(doj). 
+ */
+
+public class Problem11 {
+	public static void main(String[] args) {
+		
+	}
+}

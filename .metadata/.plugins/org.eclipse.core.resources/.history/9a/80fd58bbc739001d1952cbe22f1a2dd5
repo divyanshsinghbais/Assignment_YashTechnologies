@@ -1,0 +1,80 @@
+/**
+ * 
+ */
+package com.yash.ftp.oops;
+
+/**
+ * @author divyansh.singh
+Create a class Area in which user will be asked to input the sides of shape. 
+User will be asked to input three sides of shape. 
+If user input two sides of shape same, you have to print area of square for that side. 
+With 3 inputs you have to print area of rectangle in combination. 
+With 3 sides you have to print the area of triangle. 
+Also check the given three sides are belong to right angle triangle or not. 
+ */
+
+class Area {
+	private int side1;
+	private int side2;
+	private int side3;	
+	
+	/**
+	 * @param side1
+	 * @param side2
+	 */
+	public Area(int side1, int side2) {
+		super();
+		this.side1 = side1;
+		this.side2 = side2;
+	
+	}
+
+
+	/**
+	 * @param side1
+	 * @param side2
+	 * @param side3
+	 */
+	public Area(int side1, int side2, int side3) {
+		super();
+		this.side1 = side1;
+		this.side2 = side2;
+		this.side3 = side3;
+	}
+	
+	public int calculateArea(int side1, int side2) {
+		if(side1==side2)
+			return side1*side1;
+		else
+			return side1*side2;
+	}
+	
+	public int calculateArea(int side1, int side2, int side3) {
+		
+			if((Math.pow(side1,2)) + (Math.pow(side2,2)) == (Math.pow(side3,2)))	
+					System.out.println("It is a Hypotanous traingle with hypo: "+side3);
+			
+			if((Math.pow(side2,2)) + (Math.pow(side3,2)) == (Math.pow(side1,2)))	
+					System.out.println("It is a Hypotanous traingle with hypo: "+side1);
+			
+			if((Math.pow(side3,2)) + (Math.pow(side1,2)) == (Math.pow(side2,2)))	
+					System.out.println("It is a Hypotanous traingle with hypo: "+side2);
+					
+		}
+	}
+	
+	
+	
+}
+
+public class Problem3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

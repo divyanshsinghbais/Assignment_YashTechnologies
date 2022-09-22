@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.yash.ftp.oops;
+
+/**
+ * @author divyansh.singh
+  With the help of method overriding create two functions which will find 
+the maximum of 3 and 4 numbers. Also write one generic function which 
+can find maximum of N numbers.
+
+ */
+public class Problem6 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//
+	}
+
+}

@@ -1,0 +1,66 @@
+/**
+ * 
+ */
+package com.yash.ftp.oops;
+
+import java.time.LocalDateTime;
+import java.util.Scanner;
+
+/**
+ * @author divyansh.singh
+ 
+ */
+
+class Electronics {
+	private int id;
+	private String semiconductorType;
+	private LocalDateTime dob;
+	
+	public void show() {
+		System.out.println("Electronics class");
+	}
+}
+
+class Mobile extends Electronics {
+	public void show() {
+		System.out.println("Mobile show");
+	}
+}
+
+class Lcd extends Electronics {
+	public void show() {
+		System.out.println("LCD show");
+	}
+}
+
+class Laptop extends Electronics {
+	public void show() {
+		System.out.println("Laptop show");
+	}
+}
+
+public class Problem8 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Enter 1 for Mobile \nEnter 2 for Lcd \nEnter 3 for Laptop");
+		Scanner sc = new Scanner(System.in);
+		int inp = sc.nextInt();
+		Electronics obj1 = new Mobile();
+		Electronics obj2 = new Lcd();
+		Electronics obj3 = new Laptop();
+		
+		if(inp==1)
+			obj1.show();
+		
+		if(inp==2)
+			obj2.show();
+
+		if(inp==3)
+			obj3.show();
+		
+	}
+
+}

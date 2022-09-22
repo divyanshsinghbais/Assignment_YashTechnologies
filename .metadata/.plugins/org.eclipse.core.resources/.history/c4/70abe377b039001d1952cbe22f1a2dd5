@@ -1,0 +1,178 @@
+/**
+ * 
+ */
+package com.yash.ftp.oops;
+
+import java.time.LocalDateTime;
+
+/**
+ * @author divyansh.singh
+ /*
+Create a class Person with following member and setter getter for them Pid, pname, paddress,dob all are private. 
+Now Person class will be inherit by the Employee class will have following fields salary,date_of_joining, base_location, deptobj, contactno, emailid. 
+ 
+Department class will have following member, deptid, and dname. 
+ 
+Customer class also inherit the Person class, it also has following fields:date_of_registration, delivery_address, contactno, email_id. 
+Setter and getter methods for all class variables should be declared.
+
+Now you have to create object of Employee class and Customer class. 
+
+With the help of super keyword initialize the person class data members as they are protected. 
+
+Create array of object of department class and while 
+
+creating the object of the Employee class we will pass object of that particular department. 
+Now print all details of the Customer and Employee.
+*/
+
+
+class Employee {
+	
+	private float salary;
+	private LocalDateTime date_of_joining;
+	private String base_location;
+	private String deptObj;
+	private int contactNo;
+	private String emailId;
+
+}
+
+class Person extends Employee{
+	
+	private int pid;
+	private String pname;
+	private String paddress;
+	private LocalDateTime dob;
+	/**
+	 * @return the pid
+	 */
+	public int getPid() {
+		return pid;
+	}
+	/**
+	 * @param pid the pid to set
+	 */
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+	/**
+	 * @return the pname
+	 */
+	public String getPname() {
+		return pname;
+	}
+	/**
+	 * @param pname the pname to set
+	 */
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+	/**
+	 * @return the paddress
+	 */
+	public String getPaddress() {
+		return paddress;
+	}
+	/**
+	 * @param paddress the paddress to set
+	 */
+	public void setPaddress(String paddress) {
+		this.paddress = paddress;
+	}
+	/**
+	 * @return the dob
+	 */
+	public LocalDateTime getDob() {
+		return dob;
+	}
+	/**
+	 * @param dob the dob to set
+	 */
+	public void setDob(LocalDateTime dob) {
+		this.dob = dob;
+	}	
+
+}
+
+class Customer extends Person {
+	
+	private LocalDateTime date_of_registration;
+	private String delivery_address;
+	private int contactNo;
+	private String emailId;
+	/**
+	 * @return the date_of_registration
+	 */
+	public LocalDateTime getDate_of_registration() {
+		return date_of_registration;
+	}
+	/**
+	 * @param date_of_registration the date_of_registration to set
+	 */
+	public void setDate_of_registration(LocalDateTime date_of_registration) {
+		this.date_of_registration = date_of_registration;
+	}
+	/**
+	 * @return the delivery_address
+	 */
+	public String getDelivery_address() {
+		return delivery_address;
+	}
+	/**
+	 * @param delivery_address the delivery_address to set
+	 */
+	public void setDelivery_address(String delivery_address) {
+		this.delivery_address = delivery_address;
+	}
+	/**
+	 * @return the contactNo
+	 */
+	public int getContactNo() {
+		return contactNo;
+	}
+	/**
+	 * @param contactNo the contactNo to set
+	 */
+	public void setContactNo(int contactNo) {
+		this.contactNo = contactNo;
+	}
+	/**
+	 * @return the emailId
+	 */
+	public String getEmailId() {
+		return emailId;
+	}
+	/**
+	 * @param emailId the emailId to set
+	 */
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+	
+	
+	
+}
+
+class Department {
+	private String member;
+	private String deptId;
+	private String dName;
+}
+
+
+
+public class CustomerEmployee {
+	
+//	With the help of super keyword initialize the person class data members as they are protected. 
+
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		Customer customer = new Customer();
+		employee.
+		
+	}
+
+}
+
+
