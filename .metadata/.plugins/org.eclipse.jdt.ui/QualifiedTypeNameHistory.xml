@@ -28,5 +28,12 @@
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.yash.pms.utilities.ConsoleView"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.yash.pms.dao.ProductDao"/>
+    <fullyQualifiedTypeName name="com.yash.pms.services.ProductService"/>
+    <fullyQualifiedTypeName name="com.yash.pms.daoImpl.ProductDaoImpl"/>
+    <fullyQualifiedTypeName name="com.yash.pms.model.Product"/>
+    <fullyQualifiedTypeName name="com.yash.pms.exceptions.InvalidInput"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>
