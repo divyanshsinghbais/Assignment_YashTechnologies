@@ -1,3 +1,4 @@
+package Java8;
 @FunctionalInterface   
 interface TempInterface{  
 	public void add(int a, int b);
