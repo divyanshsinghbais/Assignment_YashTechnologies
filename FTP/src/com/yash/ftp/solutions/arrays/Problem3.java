@@ -57,7 +57,7 @@ class Array {
  */
 public class Problem3{
 	 
-    // Main driver method
+    // Demo driver method
     public static void main(String[] args)
     {
  

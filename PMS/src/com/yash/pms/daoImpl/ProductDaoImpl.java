@@ -18,6 +18,7 @@ public class ProductDaoImpl implements ProductDao {
 
 	//Declaring product array
 	Product[] arr = new Product[3];
+	
 
 	//Initializing default products 
 	public void initProducts() {
