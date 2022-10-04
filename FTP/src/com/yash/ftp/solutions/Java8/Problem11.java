@@ -137,7 +137,7 @@ class Item {
 
 }
 
-public class Problem11_StreamAPI {
+public class Problem11 {
 
 	/**
 	 * @param args
@@ -193,7 +193,7 @@ public class Problem11_StreamAPI {
 		}
 
 		//1. Get the average of all prices
-		System.out.println("Average of all prices: " 
+		System.out.println("\nAverage of all prices: " 
 				+arrListFloat.stream()
 				.mapToDouble(d -> d)
 				.average()	
@@ -201,7 +201,7 @@ public class Problem11_StreamAPI {
 				);
 
 		//2.1 Get the highest price of all items.
-		System.out.println("Highest price of all items: "
+		System.out.println("\nHighest price of all items: "
 				+arrListFloat.stream()
 				.mapToDouble(d -> d)
 				.max()
@@ -209,7 +209,7 @@ public class Problem11_StreamAPI {
 				);
 
 		//2.2 Get the lowest price of all items.
-		System.out.println("Lowest price of all items: "
+		System.out.println("\nLowest price of all items: "
 				+arrListFloat.stream()
 				.mapToDouble(d -> d)
 				.min()
@@ -217,7 +217,7 @@ public class Problem11_StreamAPI {
 				);
 
 		//3. Get items with maximum price wich are not having expire date.
-		System.out.println("Get maximum price which doesn't have expiry date: "
+		System.out.println("\nGet maximum price which doesn't have expiry date: "
 				+arrListFloat_withoutExpiry.stream()
 				.mapToDouble(d -> d)
 				.max()
@@ -232,8 +232,8 @@ public class Problem11_StreamAPI {
 		Set<Float> setOfPrices = arrList_prices.stream()
 				.collect(Collectors.toSet());
 
-		System.out.println("List to Set of item's names: " +setOfNames);
-		System.out.println("List to Set of item's prices: " +setOfPrices);
+		System.out.println("\nList to Set of item's names: " +setOfNames);
+		System.out.println("\nList to Set of item's prices: " +setOfPrices);
 
 		//5. Remove duplicates from the list of all items
 
@@ -241,7 +241,7 @@ public class Problem11_StreamAPI {
 				.collect(Collectors.toCollection(
 						() -> new TreeSet<Item>((p1, p2) -> p1.getIname().compareTo(p2.getIname())) 
 						));
-
+		System.out.println("\nRemoving duplicates from list of all items:");
 		setArrList.forEach(System.out::println);
 	}
 
