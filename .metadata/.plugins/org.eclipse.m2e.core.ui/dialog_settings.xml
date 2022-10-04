@@ -6,6 +6,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\junit&amp;mockitotest"/>
+			<item value="C:\Users\Divyansh.singh\Downloads\practice"/>
 			<item value="C:\Users\Divyansh.singh\Downloads\Practice-jUnit-mockeito"/>
 			<item value="C:\Users\Divyansh.singh\Downloads\TestingPractice"/>
 			<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-cloud-config-server"/>
@@ -79,6 +81,20 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="com.tdd"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="jUnit&amp;Mockeito"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="jUnit&amp;Mockeito"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
 		</list>
 	</section>
 </section>
