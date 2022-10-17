@@ -1,110 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\FirstApplicationindore"/>
+			<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\SpringORMHibernate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
-	</section>
-	<section name="MavenProjectImportWizardPage">
-		<list key="rootDirectory">
-			<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\SpringORM_Hibernate"/>
-			<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\springorm"/>
-			<item value="C:\Users\Divyansh.singh\Downloads\springormindore\springorm"/>
-			<item value="C:\Users\Divyansh.singh\Downloads\springormindore"/>
-			<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\springjdbc"/>
-			<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\springiocbasic"/>
-			<item value="C:\Users\Divyansh.singh\Downloads\springfirstapp"/>
-			<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\junit&amp;mockitotest"/>
-			<item value="C:\Users\Divyansh.singh\Downloads\practice"/>
-			<item value="C:\Users\Divyansh.singh\Downloads\Practice-jUnit-mockeito"/>
-			<item value="C:\Users\Divyansh.singh\Downloads\TestingPractice"/>
-			<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-cloud-config-server"/>
-			<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-cloud-config-server\spring-cloud-config-server"/>
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="MavenProjectWizardLocationPage">
-		<list key="location">
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="internal"/>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="Maven2ProjectWizardArchifactPage">
-		<list key="package">
-			<item value="com.yash.TrainingProject"/>
-		</list>
-		<list key="groupId">
-			<item value="com.yash"/>
-		</list>
-		<list key="artifactId">
-			<item value="TrainingProject"/>
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
-		</list>
-	</section>
-	<section name="MavenProjectWizardArtifactPage">
-		<list key="groupId">
-		</list>
-		<list key="name">
-		</list>
-		<list key="artifactId">
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
-		</list>
-	</section>
-	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
-		<list key="archetypeGroupId">
-			<item value="com.tdd"/>
-		</list>
-		<list key="archetypeArtifactId">
-			<item value="jUnit&amp;Mockeito"/>
-		</list>
-		<list key="archetypeVersion">
-			<item value="jUnit&amp;Mockeito"/>
-		</list>
-		<list key="repositoryUrl">
-			<item value=""/>
-		</list>
 	</section>
 </section>
