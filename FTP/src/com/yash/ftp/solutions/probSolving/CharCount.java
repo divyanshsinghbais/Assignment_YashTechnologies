@@ -8,6 +8,7 @@ public class CharCount {
 		//Print count of chars from a string
 				String str = "Divyanshd";
 				//str = str.toLowerCase();
+				
 				HashMap<Character,Integer> map = new HashMap<>();
 				
 				for(int i=0; i<str.length();i++) {
