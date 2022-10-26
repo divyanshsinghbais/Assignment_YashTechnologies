@@ -14,7 +14,6 @@ import java.util.stream.Collectors;
 public class StreamAPI_problems {
 
 	public static void main(String[] args) {
-
 		/*
 		 * Flat map example 
 		 */
@@ -49,8 +48,7 @@ public class StreamAPI_problems {
 		 * Iterate stream with indices
 		 * Input: Stream = [G, e, e, k, s]
 		*  Output: [0 -> G, 1 -> e, 2 -> e, 3 -> k, 4 -> s]
-		 */
-		
+		 */		
 		String[] arr = {"s","s","a","e","s","a"};
 		AtomicInteger index = new AtomicInteger();
 
@@ -59,8 +57,6 @@ public class StreamAPI_problems {
 		Arrays.stream(arr)
 		.map(str -> index.getAndIncrement() + "->"+str)
 		.forEach(System.out::print);
-		
-
 
 	}
 
