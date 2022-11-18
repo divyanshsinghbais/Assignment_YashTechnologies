@@ -40,6 +40,7 @@
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.4.201905300046"/>
 	</list>
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\HotelBooking"/>
 		<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\SpringMVCCrud"/>
 		<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\SpringORMHibernate"/>
 		<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\SpringORM_Hibernate"/>
@@ -49,5 +50,19 @@
 		<item value="C:\Users\Divyansh.singh\Documents\workspace-spring-tool-suite-4-4.3.0.RELEASE"/>
 	</list>
 	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.pde.PDE"/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_Y_ORIGIN" value="94"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="645"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

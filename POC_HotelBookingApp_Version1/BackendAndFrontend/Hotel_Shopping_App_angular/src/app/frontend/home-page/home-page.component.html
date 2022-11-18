@@ -1,0 +1,78 @@
+<div>
+    <app-frontend-header></app-frontend-header>
+    <div style="max-height: 700px; overflow-y: scroll;">
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-8">
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+   <!-- Start Sample Area -->
+<section class="sample-text-area">
+    <div class="container box_1170">
+    <h3 class="text-heading">Welcome to Hotel Booking App</h3>
+    <div class="categoires" style="background-color: #eee; padding: 17px; margin-bottom: 35px;">
+        <div class="container">
+            <a href="#"><div class="col-md-4">
+                <img src="/assets/images/1.jpg" style="height: 155px; width: 100%;">
+                <h4>Hotel Booking App</h4>
+                <p style="text-align: center;">We make use of innovative measures to back our approach to streamline the online venue booking process and make it simpler and easier for our customers. Our easy yet intuitive online venue booking mechanism, which is crafted especially for the convenience of people</p>			 					
+            </div></a>
+            <a href="http://localhost:4200/login"><div class="col-md-4 ">
+                <img src="/assets/images/2.jpg" style="height: 155px; width: 100%;">
+                <h4>Customer login</h4>
+                <p style="text-align: center;">We make use of innovative measures to back our approach to streamline the online venue booking process and make it simpler and easier for our customers. Our easy yet intuitive online venue booking mechanism, which is crafted especially for the convenience of people</p>			 					
+            </div></a>
+            <a href="http://localhost:4200/admin/login"><div class="col-md-4">
+                <img src="/assets/images/admin 3.jpg" style="height: 155px; width: 100%;">
+                <h4>Admin Portal</h4>
+                <p style="text-align: center;">We make use of innovative measures to back our approach to streamline the online venue booking process and make it simpler and easier for our customers. Our easy yet intuitive online venue booking mechanism, which is crafted especially for the convenience of people</p>			 					
+            </div></a>
+        </div>
+   </div>
+
+   <div class="service_area" style="border-top: 1px solid #CCCCCC;">
+    <div class="container">
+        <h3 class="text-heading">Choose Your Location</h3>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="service_active">
+                    <div class="col-md-6 col-lg-4" *ngFor="let location of categories | async">
+                        <div class="single_service">
+                            <div class="thumb">
+                                <img src="http://127.0.0.1:8080/uploads/{{location.location_image_filename}}" alt="" style="height: 230px; width: 350px;">
+                            </div>
+                            <div class="service_info">
+                                <h3><a routerLink="/center/{{location.location_id}}">{{location.location_name}}</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+   <h3 class="text-heading">About Hotel Booking App</h3>
+    <p class="sample-text">
+        We make use of innovative measures to back our approach to streamline the online venue booking process and make it simpler and easier for our customers. 
+        Our easy yet intuitive online venue booking mechanism, which is crafted especially for the convenience of people living in Delhi NCR, Gurgaon, Noida Faridabad, and Ghaziabad, makes online venue booking much simpler and faster than its counterpart- offline booking. 
+        At VenueMonk, we have a wide range of exclusive Wedding Venues, Wedding Reception Venues, Engagement Venues, Pre-Wedding Party Venues, Birthday Party Venues, Kids Party Venues, First Birthday Party Venues, Corporate Party Venues, Corporate Event Venues, Conference Venues, Bachelor Party Venues, Business Meeting Venues, Business Dinner Venues, Exhibition Venues etc. 
+        At VenueMonk, we have a wide range of venue categories like Banquet Hall, Farm Houses, Lawns, Restaurants, Clubs, Bars, Meeting Rooms, Conference Rooms, Pool-Side Venues, Rooftop Venues, and more for every type of celebration. People can now book the best venues in their city with just a few clicks through VenueMonk. 
+        We look forward to raising the bar for online venue booking in Delhi NCR, Gurgaon, Noida, Faridabad, and Ghaziabad by providing necessary features to our customers like prompt customer services, faster bookings, and online payments. 
+        We are very keen on providing our customers with the best venues for their events. When it comes to quality and service of the venues or vendors, we never compromise on it. Moreover, we offer accurate and updated descriptions and transparent pricing for all our venues so that our customers get a clarity of the venue they are booking.
+    </p>
+    </div>
+    </section>
+    <!-- End Sample Area -->
+    </div>   
+    <!-- <app-frontend-footer></app-frontend-footer> -->
+</div>

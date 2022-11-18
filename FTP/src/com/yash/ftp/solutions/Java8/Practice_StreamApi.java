@@ -22,7 +22,6 @@ public class Practice_StreamApi {
 		};	
 		System.out.println(pal.test(10));
 
-
 		//Stream API
 		List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9);
 

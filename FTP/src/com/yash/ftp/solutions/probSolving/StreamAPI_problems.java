@@ -36,7 +36,6 @@ public class StreamAPI_problems {
 		 */
 		List<Integer> input = Arrays.asList(5,13,4,21,13,27,2,59,59,34);
 		Set<Integer> set = new HashSet<>();
-
 		System.out.println("input list: "+input);
 		
 		input.stream()

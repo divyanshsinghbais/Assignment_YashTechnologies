@@ -2,6 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Divyansh.singh\Documents\Hotel Booking System\Hotel Booking App\Hotel_Shopping_App_springboot"/>
+			<item value="C:\Users\Divyansh.singh\Documents\Venue Booking System Major Spring Boot\Venue Booking System Major Spring Boot\venue_booking_system_springboot"/>
+			<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\HotelBookingApp"/>
+			<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\hotelBookingApp"/>
+			<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\FullStackApp"/>
+			<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\RestWithAngularCrud (1)\RestWithAngularCrud"/>
 			<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\FirstApplicationindore"/>
 			<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\SpringORMHibernate"/>
 		</list>
@@ -17,5 +23,72 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Divyansh.singh\Documents\workspace-sts4.3\HotelBooking"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.product.hotel.Hotel"/>
+			<item value="com.product.hotel.HotelBookingApp"/>
+		</list>
+		<list key="groupId">
+			<item value="com.product.hotel"/>
+		</list>
+		<list key="artifactId">
+			<item value="Hotel"/>
+			<item value="HotelBookingApp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

@@ -1,28 +1,18 @@
 package com.yash.ftp.solutions.probSolving;
 /**
- * 
- */
-
-/**
  * @author divyansh.singh
- *
  */
 public class PrimeNumber {
 
-	/**
-	 * @param args
-	 */
-
 	public static void primeNum(int n) {
 
-		int i,m=0,flag=0;
-		m=n/2; 
+		int i,flag=0;
 
 		if(n==0||n==1){  
 			System.out.println(n+" is not prime number");      
 		}
-		else{  
-			for(i=2;i<=m;i++){      
+		else {  
+			for(i=2;i<=n/2;i++) {      
 				if(n%i==0){      
 					System.out.println(n+" is not prime number");      
 					flag=1;      
@@ -30,7 +20,7 @@ public class PrimeNumber {
 				}      
 			}      
 			if(flag==0)  { System.out.println(n+" is prime number"); }  
-		}//end of else 
+		}
 	}
 
 
@@ -57,20 +47,16 @@ public class PrimeNumber {
 
 	public static boolean recursionPrime(int n, int i) {
 
-		if(n<2) {
-			System.out.println("Not prime");
+		if(n<=2)
+			return (n==2) ? true:false;
+				
+		if(n%2==0)
 			return false;
-		}	
-		if(n==2)
-			return true;
-
-		if(n%i==0)
-			return false;
-
+		
 		if(i*i > n)
 			return true;
 		
-		return recursionPrime(n, i+1);
+        return recursionPrime(n,i+1);
 	}
 
 

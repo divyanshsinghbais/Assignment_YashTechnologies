@@ -1,0 +1,34 @@
+2022-11-18 11:09:41 [main] INFO  c.p.hotelbookingsystem.Application - Starting Application on YI1016601LT with PID 26972 (C:\Users\Divyansh.singh\Documents\workspace-sts4.3\Hotel_Shopping_App_springboot\target\classes started by divyansh.singh in C:\Users\Divyansh.singh\Documents\workspace-sts4.3\Hotel_Shopping_App_springboot)
+2022-11-18 11:09:41 [main] INFO  c.p.hotelbookingsystem.Application - No active profile set, falling back to default profiles: default
+2022-11-18 11:09:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-11-18 11:09:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 175ms. Found 19 repository interfaces.
+2022-11-18 11:09:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5058c3a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-18 11:09:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-18 11:09:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-18 11:09:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2022-11-18 11:09:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-18 11:09:43 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2135 ms
+2022-11-18 11:09:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-11-18 11:09:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-11-18 11:09:43 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-11-18 11:09:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2022-11-18 11:09:44 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-11-18 11:09:44 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-11-18 11:09:44 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-18 11:09:45 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:09:46 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-18 11:09:46 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 11:09:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-18 11:09:46 [main] INFO  c.p.hotelbookingsystem.Application - Started Application in 5.548 seconds (JVM running for 7.588)
+2022-11-18 11:11:21 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-18 11:11:21 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-18 11:11:21 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 276 ms
+2022-11-18 11:11:21 [http-nio-8080-exec-1] INFO  c.p.h.controller.LocationController - method details: com.project.hotelbookingsystem.controller.LocationController
+2022-11-18 11:11:21 [http-nio-8080-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2022-11-18 11:24:14 [RMI TCP Connection(32)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-11-18 11:24:14 [RMI TCP Connection(32)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-18 11:24:14 [RMI TCP Connection(32)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:24:14 [RMI TCP Connection(32)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-11-18 11:24:14 [RMI TCP Connection(32)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

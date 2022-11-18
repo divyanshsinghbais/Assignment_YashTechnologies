@@ -21,10 +21,11 @@ public class Pallindrome {
 		int rem,rev = 0;
 
 		while(num>0) {
-			rem = num%10;//get last digit
-			rev = (rev*10)+rem;//add last digit in rev
-			num = num/10;//remove last digit
+			rem = num%10;			//get last digit
+			rev = (rev*10)+rem;			//add last digit in rev
+			num = num/10;			//remove last digit
 		}
+		
 		if(temp!=num)
 			return false;
 		else
